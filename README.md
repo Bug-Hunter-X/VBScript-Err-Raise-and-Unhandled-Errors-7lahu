@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon error in VBScript related to error handling using Err.Raise. The script defines a function that raises a custom error if a parameter is empty.  The bug arises when this function isn't handled properly in calling functions. The solution includes proper error handling to gracefully manage the raised error.
